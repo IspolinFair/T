@@ -93,7 +93,7 @@ public class Main
         }
 
 
-        for (int i = 0; i < 3; i++) // топ 100000 найбільш вживаних фраз
+        for (int i = 0; i < 100000; i++) // топ 100000 найбільш вживаних фраз
         {
             System.out.println("Phrase: "+summary.get(i)+"| number = "+summaryNumber.get(i));
         }
