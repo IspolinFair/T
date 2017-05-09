@@ -1,0 +1,30 @@
+ul{
+	width: 70%;
+  background-color:#25754A;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+li{
+	display: inline-block;
+	margin: 15px;	
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+span{
+	display: none;
+}
+@media screen and (max-width: 800px){
+	span{
+		font-size: 25px;
+		display: inline-block;
+		text-transform: uppercase;
+		color: white;
+	}
+	li{
+		display: none;
+	}	
+}

@@ -1,0 +1,54 @@
+body{
+	background: gray;
+	color: pink;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background: black;
+    width:100%;
+	display: block;
+
+}
+header p{
+	text-align: center;
+}
+header li {
+	margin: 15px;
+	padding: 3px 0 3px 75px;
+	display: inline-block;
+	margin-left: 50px;
+	border: 2px solid pink;
+	padding: 5px;
+	border-radius: 13px;
+
+}
+header ul {
+	background: black;
+
+}
+
+header li a{
+	
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Arial;
+	color: white;
+
+}
+div{
+	margin-top: 140px;
+	
+}
+.fixed{
+	position: fixed;
+	top: -15px;
+	left: 0;
+	width: 100%;
+}
+.text p{
+	color: white;
+}

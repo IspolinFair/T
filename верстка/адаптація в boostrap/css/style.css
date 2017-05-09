@@ -1,0 +1,27 @@
+.head{
+	padding: 20px;
+	background: #fbf573;
+	border-radius: 15px;
+	color: white;	
+}
+.head a{
+	color: #8c201c;
+	text-transform: uppercase;	
+}
+
+
+.head .icon-bar{
+	color: #8c201c;
+
+	
+	
+}
+body{
+	font-size: 16px;
+}
+.row img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;:   
+
+}

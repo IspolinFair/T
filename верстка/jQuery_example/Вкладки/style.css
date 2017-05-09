@@ -1,0 +1,27 @@
+
+.tab-menu li{
+
+	display: inline-block;
+	margin: 0 5px 15px 0;
+	padding: 7px;
+	
+	-moz-border: 2px solid gray;
+	-webkit-border: 2px solid gray;
+	-o-border: 2px solid gray;
+	border: 2px solid gray;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.tab-menu li:hover{
+	background: gray;
+	color: white;
+}
+.tab-content div{
+	display: block;
+
+	font-size: 14px;
+	font-weight: bold;
+	width: 300px
+}
+

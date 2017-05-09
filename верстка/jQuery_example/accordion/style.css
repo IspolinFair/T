@@ -1,0 +1,40 @@
+body{
+	background: #fac8c3;
+
+	
+}
+div{
+	margin: 50px 300px 50px 300px;	
+	padding: 50px;
+	border: 13px solid #fffbfa;
+	box-shadow: 0 0 25px black;
+	border-radius: 57px;
+	background: #b4918d;
+	width: 500px;
+	align-content: center;
+}
+nav{
+	
+	box-shadow: 0 0 5px #fac8c3;
+	border: 1px solid white;
+	margin: 45px 30px;
+	border-radius: 37px;	
+	text-align:center;	
+
+	background: #fac8c3;
+}
+ span{
+ 	display: block;
+ 	padding-bottom: 15px;
+ 	margin-top: 30px;
+ 	font-size: 25px;
+ 	color:#fffbfa;
+
+ }
+ span:hover{
+ 	cursor: pointer;
+ 	color: #e96182;
+ }
+ li{
+ 	display: block;
+ }

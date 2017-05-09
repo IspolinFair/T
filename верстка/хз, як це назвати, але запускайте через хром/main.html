@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Вставка HTML5 поєднується з Respond.js для підтримки в IE8 елементів HTML5 та медіа-запитів -->
+    <!-- ЗАСТЕРЕЖЕННЯ: файл Respond.js не працює, якщо ви проглядаєте сторінку відкривши її з файлової системи -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src=js/jscolor.js></script>
+    <script type="text/javascript" src="js.js" ></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+
+<!--               Start                       -->
+<br>
+<div class="container well ">
+	<div class="row text-center">
+	    <div class="col-md-4">Editor</div>
+	    <div class="col-md-4">Forma</div>
+	    <div class="col-md-4">Your code is CSS</div>
+	</div>
+	<br>
+	<div class="row text-center">
+	    <div class="col-md-4"> <p>BORDER_RADIoS "корекція радіуса працює тільки на хромі не прописані -о- -moz- -webkit-"</p> 
+	    	<div id="tit" class="col-md-6">
+
+	    	      <button type="button" id="plus" class="btn btn-default">
+	    	           <i class="glyphicon glyphicon-plus"></i>
+	    	      </button>
+
+	    	       <button type="button" id="minus" class="btn btn-default">
+	    	            <i class="glyphicon glyphicon-minus"></i>
+	    	       </button>
+	    	   
+	    	   
+	       </div>
+
+	    	<div id="tit" class="col-md-6">
+	    		
+ <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-addon">Step</div>
+      <input class="step" value="10">
+    </div>
+ </div>
+
+	    	</div>
+	    </div>
+
+	    <div class="col-md-4">
+	    	<div id="form" class="formik center-block"></div>
+	    </div>
+
+	    <div class="col-md-4 center-block">
+	    	<textarea name="result" id="result" cols="20" rows="9"></textarea>
+	    </div>
+
+	    <div class="col-md-4 center-block"> 
+	       <div class="col-md-7 text-center">
+               <p>background</p>
+                  <div class="form-group">
+                    <div class="input-group">    
+                         <div class="input-group-addon">bg-color</div>
+                            <input id="bg-color" class="form-control  text-center jscolor" >
+ </div>
+ </div>
+ </div>
+
+
+
+
+ <div class="col-md-7 text-center">
+<p>border color</p>
+ <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-addon">bg-radios</div>
+      <input id="bg-radios" class="form-control  text-center jscolor" >
+    </div>
+ </div>
+		
+
+
+</div>
+
+</div>
+
+</div>	
+
+
+	
+</body>
+</html>
